@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/add-jobs.css">
+    <title>Add Jobs</title>
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h1 class="logo">JOB   APPLICATION</h1>
+            </div>
+            <div class="menu">
+              <button><a href="http://localhost/design/post-job.php/">BACK</a></button>
+            </div>
+            <form method="GET" action="job-post.php">
+            <div class="form">
+                <div class="post">
+                    <h1 class="pt">Post a New Job</h1>
+                    
+                    <h3>Job Announcement Template</h3><br><br>
+
+                    <h3>Job Title</h3>
+                    <input type="text" size="70" name="title"><br><br>
+
+                    <h3>Job Description</h3>
+                    <textarea name="des">Job Description</textarea>
+                    
+
+                    
+                    <h3>Location</h3>
+                    <div>
+                    <input type="text" size="20" name="loc"><br><br>
+
+                    <h3>Min Salary</h3>
+                    <input type="number" size="50" name="salary"><br><br>
+
+                    <h3>Experience</h3>
+                    <input type="number" size="50" name="Experience"><br><br>
+
+                    <h3>Category</h3>
+                    <input type="text" size="20" name="category"><br><br>
+
+                    </div>
+                    <div class="prt2">
+                    <h3>Gender</h3>
+                    <input type="text" size="20" name="gender"><br><br>
+
+                    <h3>Max Salary</h3>
+                    <input type="text" size="20" name="typeSalary"><br><br>
+
+                    <h3>Currency</h3>
+                    <input type="number" size="20" name="MaxSalary"><br><br>
+
+                    <h3>Work Hours</h3>
+                    <input type="text" size="20" name="workHours"><br><br>
+
+                    </div>
+
+                    <h3>Responsibility</h3><br>
+                    <textarea name="Res"  cols="30" rows="10"></textarea>
+
+                    <h3>Qualifications</h3><br>
+                    <textarea name="qua" cols="30" rows="10"></textarea>
+                    
+                    <h3>Company Detail</h3>
+                    <input type="text" size="130" name="det" placeholder="Details of company"><br><br>
+                    <div class="prt3">
+
+                    </div>
+                    <button class="des"><a href="http://localhost/design/test.php/">NEXT</a></button>
+                    <button class="des" type="submit">Add Jobs</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+</body>
+</html>
